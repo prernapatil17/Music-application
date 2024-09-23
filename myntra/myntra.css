@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+.left img {
+    width: 98px;
+    margin-block: -30px;
+    height: 87px;
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -1px 8px;
+    position: sticky;
+    top: 0;
+    height: 180px;
+    width: 1490px;
+    background: white;
+}
+
+
+
+/* @media(max-width: 3350px) {
+    .container{
+        padding: 0px 0px;
+    }
+} */
+
+nav {
+    padding: 3px 0px 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 7px 10px;
+    margin: 3px 26px;
+}
+
+.flex {
+    display: flex;
+    font-family: "Audiowide", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+.line {
+    border-top: 2px solid #3c1a13;
+}
+
+nav ul li input {
+    size: 0cap;
+}
+
+input {
+    padding: 10px 138px;
+    width: 308px;
+    height: 12px;
+}
+
+.padd {
+    padding: 0vw;
+    width: 123px;
+    height: 0px;
+}
+
+.space {
+    color: #3F51B5;
+    font-family: "Audiowide", sans-serif;
+}
+
+.container {
+    padding: 0 10vw;
+    margin: auto;
+}
+
+.section1 {
+    background-color: rgb(254 248 248);
+    /* height: 192vh; */
+    width: 79vw;
+}
+
+.sc {
+    padding: 16px 23px;
+    margin: -2px;
+    border: -1px;
+    border-radius: 8px;
+    border: 1px solid #cecece;
+    width: 264px;
+}
+
+.homeimg {
+    width: 72vw;
+    margin: -8px 2px;
+}
+
+.homeimg1 {
+    width: 72vw;
+    margin: -8px 2px;
+}
+
+footer {
+    padding: 7px 116px;
+    box-shadow: aliceblue;
+    color: #bcaeae;
+}
+
+nav {
+    flex-direction: column;
+}
+
+@media(max-width: 350px) {
+    header {
+        background: red;
+        height: 170px;
+        width: 1284px;
+    }
+    .container {
+        padding: 0 150vw;
+        margin: auto;
+    }
+    .flex {
+        display: flex;
+        font-family: "Audiowide", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+        line-height: 1.5;
+    }
+    .flex {
+        display: flex;
+        margin: 6px 1px;
+}
+    .homeimg1 {
+        width: 317vw;
+        margin: -5px -388px;
+    }
+    nav {
+        padding: 2px 0px 0px;
+    }
+    .left img {
+        width: 95px;
+        margin-block: -23px;
+    }
+nav ul li {
+    list-style: none;
+    padding: -61px 0px;
+    margin: 3px 8px;
+}
+}
